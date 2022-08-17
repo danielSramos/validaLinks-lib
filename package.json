@@ -1,0 +1,19 @@
+{
+  "name": "lib-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "author": "dk_zer0",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
